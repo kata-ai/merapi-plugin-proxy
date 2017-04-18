@@ -16,27 +16,19 @@ components:
     proxyServiceNameV1: type: "proxy", uri: "http://localhost:5000", version: "v1",
     proxyServiceNameV2: type: "proxy", uri: "http://localhost:5000", version: "v2"
 ```
-## Additional Configuration (optional)
-```
-{
-    "proxy": {
-        "max_proxy_retry": 100,
-        "remote_call_timeout": 5000
-    }    
-}
-```
+
 ## Usage 
 Manual
 ```
-let proxyServiceV1 = yield container.resolve("proxyServiceNameV1");
+let proxyServiceV1 = await container.resolve("proxyServiceNameV1");
 // call the proxy
-let response = yield proxyServiceV1.<functionName>(param1, param2);
+let response = await proxyServiceV1.<functionName>(param1, param2);
 ```
 
 Automatic injection
 ```
 "use strict";
-const Component = require("@yesboss/merapi/component");
+const {Component} = require("merapi");
 
 module.exports = class FirstComponent extends Component {
     constructor(logger, proxyServiceNameV2) {
