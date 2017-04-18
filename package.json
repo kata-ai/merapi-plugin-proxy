@@ -1,6 +1,6 @@
 {
-  "name": "@yesboss/merapi-plugin-proxy",
-  "version": "0.1.13",
+  "name": "merapi-plugin-proxy",
+  "version": "0.2.0",
   "description": "Provide microservice proxy",
   "main": "index.js",
   "scripts": {
