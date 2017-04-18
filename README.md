@@ -4,23 +4,17 @@ Pluginable proxy for Merapi to enable it to do remote call other merapi services
 ## Installation
 Install using npm:
 ```
-npm install @yesboss/merapi-plugin-proxy --save
+npm install merapi-plugin-proxy --save
 ```
 
 ## Configuration
 
 ```
-{
-    ....
-    "plugins": [
-        "proxy@yesboss",
-        .....
-    ],
-    components: {
-        proxyServiceNameV1: { type: "proxy", uri: "http://localhost:5000", version: "v1" },
-        proxyServiceNameV2: { type: "proxy", uri: "http://localhost:5000", version: "v2" }
-    }
-}
+plugins:
+    - proxy
+components:
+    proxyServiceNameV1: type: "proxy", uri: "http://localhost:5000", version: "v1",
+    proxyServiceNameV2: type: "proxy", uri: "http://localhost:5000", version: "v2"
 ```
 ## Additional Configuration (optional)
 ```
