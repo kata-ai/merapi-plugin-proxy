@@ -50,4 +50,6 @@ We plan to open source this later in 2016, however please do not share
 this before we officially release this as open source.
 
 ## Contributors
-Initial Author: Roni Kurniawan
+* Roni Kurniawan (Initial Contributor)
+* Ikmal Syifai
+* Ahmad Rizqi Meydiarso
