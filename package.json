@@ -15,6 +15,7 @@
     "microservice"
   ],
   "author": "Ahmad Rizqi Meydiarso",
+  "contributors": ["Ikmal Syifai", "Reyhan Sofian Haqqi", "Rizky Luthfianto"],
   "license": "ISC",
   "homepage": "https://bitbucket.org/yesboss/merapi-plugin-proxy#readme",
   "dependencies": {
