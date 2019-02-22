@@ -1,6 +1,6 @@
 {
   "name": "merapi-plugin-proxy",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "description": "Provide microservice proxy",
   "main": "index.js",
   "scripts": {
@@ -18,8 +18,8 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/yesboss/merapi-plugin-proxy#readme",
   "dependencies": {
-    "merapi": "^0.15.8",
-    "merapi-proxy": "^0.1.6"
+    "merapi": "^0.19.3",
+    "merapi-proxy": "^1.0.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
